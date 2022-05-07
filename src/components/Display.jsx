@@ -1,3 +1,6 @@
 export default function Display(props) {
-    return "We need a button up top."
+    if (props.data) {
+        return <img src={props.data.gif.data.images.original.url}/>
+    } 
+    else return "click the button"
 }
