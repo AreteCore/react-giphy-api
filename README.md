@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# This is just a simple app to hit the Giphy random endpoint using react.
+
+It has:
+- App.js
+- A button to run the query.
+- A Display to show the results. That's it.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
