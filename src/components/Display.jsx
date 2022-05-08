@@ -8,5 +8,5 @@ export default function Display(props) {
 
         )
     }
-    else return "Click the button!"
+    else return "Click the button for Bob's Burgers!"
 }

@@ -11,7 +11,7 @@ const [gif, setGif] = useState(null)
 
 async function handleClick() {
 let response = await fetch(
-`https://api.giphy.com/v1/gifs/random?api_key=${KEY}`
+`https://api.giphy.com/v1/gifs/random?api_key=${KEY}&tag=bobs+burgers&rating=r`
 )
 response = await response.json()
 // console.log(response)
