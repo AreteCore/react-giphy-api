@@ -20,9 +20,11 @@ setGif(response)
 
   return (
     <div className="App">
-      <h1>React Giphy API Project</h1>
-      <div><button onClick={handleClick}>GET A GIF</button></div>
-      <Display gif={gif}/>
+      <div>
+        <h1>React Giphy API Project</h1>
+        <div><button onClick={handleClick}>GIF ME, DOG!</button></div>
+        <Display gif={gif} handleClick={handleClick}/>
+      </div>
     </div>
   );
 }

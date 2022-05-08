@@ -12,11 +12,11 @@ code {
     monospace;
 }
 
-.App {
+/* .App {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-}
+} */
 
 button {
   width: 200px;
