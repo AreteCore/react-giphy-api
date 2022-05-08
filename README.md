@@ -3,7 +3,13 @@
 It has:
 - App.js
 - A button to run the query.
-- A Display to show the results. That's it.
+- A `Display` to show the results. That's it.
+
+_Here's a screenshot:_
+
+
+![screenshot](./public/bobs.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
