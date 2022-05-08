@@ -1,6 +1,12 @@
 export default function Display(props) {
-    if (props.data) {
-        return <img src={props.data.gif.data.images.original.url}/>
-    } 
-    else return "click the button"
+    console.log("display", props)
+    if (props.gif) {
+        return (
+            <div>
+                <img src={props.gif.data.images.original.url} />
+            </div>
+
+        )
+    }
+    else return "Click the button!"
 }
