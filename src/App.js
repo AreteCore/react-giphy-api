@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Display from './components/Display';
+import Button from './components/Button';
 // import React from 'react'
 import {useState} from 'react'
 
@@ -22,7 +23,8 @@ setGif(response)
     <div className="App">
       <div>
         <h1>React Giphy API Project</h1>
-        <div><button onClick={handleClick}>GIF ME, DOG!</button></div>
+        <Button handleClick={handleClick} />
+        {/* <div><button onClick={handleClick}>GIF ME, DOG!</button></div> */}
         <Display gif={gif} handleClick={handleClick}/>
       </div>
     </div>

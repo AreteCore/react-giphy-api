@@ -3,6 +3,7 @@
 It has:
 - App.js
 - A button to run the query.
+- A `Button` to have a button...  **why, I do not know**
 - A `Display` to show the results. That's it.
 
 _Here's a screenshot:_
