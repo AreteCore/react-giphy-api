@@ -6,6 +6,11 @@ It has:
 - A `Button` to have a button...  **why, I do not know**
 - A `Display` to show the results. That's it.
 
+_Here's a diagram:_
+
+![diagram](./public/diagram.png)
+
+
 _Here's a screenshot:_
 
 
